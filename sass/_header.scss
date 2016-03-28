@@ -1,0 +1,27 @@
+.site-header {
+
+  padding: 40px 0;
+  background-image: linear-gradient(-180deg, $blue 0%, darken($blue, 10%) 100%);
+
+  &__logo {
+    display: block;
+    max-width: 100%; // retina @2x resolution = 271px
+    height: auto;
+    margin: 0 auto;
+  }
+
+  &__phone {
+
+    color: $white;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 40px 0 0 0;
+
+    dd {
+      font-weight: 600;
+      font-size: 1.5em;
+    }
+
+  }
+
+}

@@ -1,2 +1,20 @@
-* {
-  box-sizing: border-box; }
+html,
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.site-header {
+  padding: 40px 0;
+  background-image: linear-gradient(-180deg, #8ACFFF 0%, #57baff 100%); }
+  .site-header__logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; }
+  .site-header__phone {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 40px 0 0 0; }
+    .site-header__phone dd {
+      font-weight: 600;
+      font-size: 1.5em; }
