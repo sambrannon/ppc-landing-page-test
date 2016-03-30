@@ -16,10 +16,6 @@
     "url": "https://github.com/sambrannon/ppc-landing-page-test/issues"
   },
   "homepage": "https://github.com/sambrannon/ppc-landing-page-test#readme",
-  "dependencies": {
-    "bootstrap": "^3.3.6",
-    "jquery": "^2.2.2"
-  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0"
