@@ -1,7 +1,33 @@
 .site-header {
 
-  padding: 40px 0;
-  background-image: linear-gradient(-180deg, $blue 0%, darken($blue, 10%) 100%);
+  background: transparent no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 30px 15px;
+  color: $white;
+
+  @include media-query($mq-sm) {
+    background-image: url('../images/header-bg.jpg');
+  }
+
+  &::before {
+
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $brown-light;
+
+    @include media-query($mq-sm) {
+      opacity: 0.72;
+    }
+
+  }
+
+  .container { position: relative; }
 
   &__logo {
     display: block;
@@ -12,16 +38,23 @@
 
   &__phone {
 
-    color: $white;
+    font-size: 2em;
     text-align: center;
-    font-size: 1.2em;
-    margin: 40px 0 0 0;
+    border-radius: 3px;
+    margin: 30px 0;
+    padding: 4px 6px;
+    background-color: $brown;
 
-    dd {
-      font-weight: 600;
-      font-size: 1.5em;
-    }
+  }
 
+  &__tagline {
+    font-weight: $extra-bold;
+    font-size: 2.4em;
+  }
+
+  &__subtag {
+    font-size: 1.8em;
+    font-weight: $semi-bold;
   }
 
 }

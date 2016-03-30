@@ -1,2 +1,18 @@
-$white:       #ffffff;
-$blue:        #8ACFFF;
+// Colors
+$white:         #ffffff;
+$black:         #1a1a1a;
+$brown-light:   #E2A567;
+$brown-dark:    #8B572A;
+$brown:         mix($brown-light, $brown-dark);
+
+// Media Query Sizes
+$mq-sm:         '768px';
+$mq-md:         '992px';
+$mq-lg:         '1200px';
+
+// Font Stuff
+$light:         300;
+$normal:        400;
+$semi-bold:     600;
+$bold:          700;
+$extra-bold:    800;

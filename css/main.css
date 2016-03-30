@@ -1,20 +1,47 @@
 html,
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400; }
 
 .site-header {
-  padding: 40px 0;
-  background-image: linear-gradient(-180deg, #8ACFFF 0%, #57baff 100%); }
+  background: transparent no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 30px 15px;
+  color: #ffffff; }
+  @media screen and (min-width: 768px) {
+    .site-header {
+      background-image: url("../images/header-bg.jpg"); } }
+  .site-header::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #E2A567; }
+    @media screen and (min-width: 768px) {
+      .site-header::before {
+        opacity: 0.72; } }
+  .site-header .container {
+    position: relative; }
   .site-header__logo {
     display: block;
     max-width: 100%;
     height: auto;
     margin: 0 auto; }
   .site-header__phone {
-    color: #ffffff;
+    font-size: 2em;
     text-align: center;
-    font-size: 1.2em;
-    margin: 40px 0 0 0; }
-    .site-header__phone dd {
-      font-weight: 600;
-      font-size: 1.5em; }
+    border-radius: 3px;
+    margin: 30px 0;
+    padding: 4px 6px;
+    background-color: #b77e49; }
+  .site-header__tagline {
+    font-weight: 800;
+    font-size: 2.4em; }
+  .site-header__subtag {
+    font-size: 1.8em;
+    font-weight: 600; }
