@@ -90,10 +90,10 @@
     font-size: 2.4em;
     font-weight: $extra-bold;
     margin: 0 0 10px;
+    text-shadow: 2px 2px 0 $brown-dark;
 
     @include media-query($mq-sm) {
       font-size: 3.2em;
-      text-shadow: 2px 2px 0 $brown-dark;
     }
 
     @include media-query($mq-md) {
@@ -106,10 +106,7 @@
 
     font-size: 1.8em;
     font-weight: $semi-bold;
-
-    @include media-query($mq-sm) {
-      text-shadow: 1px 1px 0 $brown-dark;
-    }
+    text-shadow: 1px 1px 0 $brown-dark;
 
     @include media-query($mq-md) {
       font-size: 2.2em;

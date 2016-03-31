@@ -1,0 +1,13 @@
+.form-control {
+
+  color: $gray;
+
+  &.changed {
+    color: $black;
+  }
+
+}
+
+option[disabled=disabled] {
+  color: $gray;
+}

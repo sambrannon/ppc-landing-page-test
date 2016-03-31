@@ -1,9 +1,14 @@
 // Colors
 $white:         #ffffff;
 $black:         #1a1a1a;
+$gray:          #999999;
 $brown-light:   #E2A567;
 $brown-dark:    #8B572A;
 $brown:         mix($brown-light, $brown-dark);
+$green:         #4a8677;
+$green-light:   lighten($green, 10%);
+$green-dark:    darken($green, 10%);
+$red:           #78483d;
 
 // Media Query Sizes
 $mq-sm:         '768px';
