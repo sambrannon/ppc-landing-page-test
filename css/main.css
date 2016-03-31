@@ -2,12 +2,13 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #2c2c2c; }
 
 .form-control {
   color: #999999; }
   .form-control.changed {
-    color: #1a1a1a; }
+    color: #2c2c2c; }
 
 option[disabled=disabled] {
   color: #999999; }
@@ -159,3 +160,72 @@ option[disabled=disabled] {
     @media screen and (min-width: 768px) {
       .carousel-caption p {
         font-size: 1.8em; } }
+
+.services {
+  border-top: solid 1px #dfdfdf;
+  margin: 30px 0 0;
+  padding: 30px 0 0; }
+  .services__title {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    font-weight: 600; }
+  .services__subtitle {
+    margin: 15px 0;
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .services__subtitle {
+        margin-bottom: 30px; } }
+  .services__footer {
+    margin: 15px 0;
+    font-size: 1.6em;
+    color: #999999;
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .services__footer {
+        margin: 30px 0; } }
+
+.service {
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 15px; }
+  @media screen and (min-width: 768px) {
+    .service {
+      margin-bottom: 30px; } }
+  .service__image {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .service__title {
+    margin: 0;
+    padding: 15px; }
+    @media screen and (min-width: 992px) {
+      .service__title {
+        font-size: 1.8em;
+        font-weight: 600; } }
+  .service__description {
+    margin: 0;
+    padding: 0 15px 15px;
+    font-size: 1.4em; }
+
+.service-pills {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center; }
+
+.service-pill {
+  display: block;
+  font-size: 1.6em;
+  margin: 0 0 6px;
+  padding: 8px 12px;
+  background-color: #E3DCD5;
+  border-radius: 3px;
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    .service-pill {
+      display: inline-block;
+      margin: 0 6px 8px 0; } }
+  .service-pill:last-child {
+    margin-bottom: 0; }

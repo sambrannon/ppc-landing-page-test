@@ -17,4 +17,12 @@ $(document).ready(function(){
     });
   });
 
+  // Match up the service blocks
+  $('.service').matchHeight({
+    byRow: true,
+    property: 'height',
+    target: null,
+    remove: false
+  });
+
 });
