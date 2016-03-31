@@ -1,13 +1,12 @@
 .site-header {
 
-  background: transparent no-repeat center center;
+  background: url('../images/header-bg.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
   padding: 30px 15px;
   color: $white;
 
   @include media-query($mq-sm) {
-    background-image: url('../images/header-bg.jpg');
     padding: 30px 0;
   }
 
@@ -21,10 +20,7 @@
     bottom: 0;
     left: 0;
     background-color: $brown-light;
-
-    @include media-query($mq-sm) {
-      opacity: 0.72;
-    }
+    opacity: 0.72;
 
   }
 
