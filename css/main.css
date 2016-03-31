@@ -110,6 +110,11 @@ option[disabled=disabled] {
     background-color: #38655a;
     padding: 15px;
     text-align: center; }
+  .quote__subtitle {
+    margin: 0;
+    padding: 26px 15px 10px;
+    font-size: 1.8em;
+    text-align: center; }
   .quote__form {
     padding: 15px; }
   .quote__input-wrap {
