@@ -20,3 +20,9 @@ Then serve up the site using [http-server](https://www.npmjs.com/package/http-se
     $ http-server
 
 Then navigate to `http://localhost:8080` to see the site.
+
+## Preview
+
+A live preview can be found [here](http://qualitymovers.sambrannon.com/), as well as a screenshot below.
+
+![quality-movers-ss](https://cloud.githubusercontent.com/assets/7304891/14165608/6655edfc-f6d0-11e5-991d-7fa2d58296fb.png)
