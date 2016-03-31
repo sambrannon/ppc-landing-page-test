@@ -1,0 +1,44 @@
+.contact {
+
+  background-color: $brown;
+  color: $white;
+  padding: 15px 0;
+
+  &__header {
+    font-size: 2.4em;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  &__options {
+    @include list-reset;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  &__option {
+
+    display: block;
+    background-color: $brown-light;
+    font-size: 1.8em;
+    margin: 0 0 6px 0;
+    padding: 6px 12px;
+    border-radius: 3px;
+
+    @include media-query($mq-sm) {
+      display: inline-block;
+      margin: 0 6px 8px 0;
+    }
+
+    span {
+      margin-right: 4px;
+    }
+
+  }
+
+  &__copy {
+    font-size: 1.5em;
+    margin: 15px 0;
+  }
+
+}
