@@ -5,7 +5,7 @@
   margin: 15px 0;
   overflow: hidden;
 
-  @include media-query($mq-sm) {
+  @include media-query($mq-md) {
     margin: 30px 0;
     height: 410px;
     position: relative;

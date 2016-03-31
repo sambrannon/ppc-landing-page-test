@@ -95,7 +95,7 @@ option[disabled=disabled] {
   color: #ffffff;
   margin: 15px 0;
   overflow: hidden; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .quote {
       margin: 30px 0;
       height: 410px;
@@ -129,6 +129,33 @@ option[disabled=disabled] {
     color: #38655a;
     border: none; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .carousel {
     margin: 30px 0; } }
+
+.carousel-caption {
+  padding: 40px 15% 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(74, 134, 119, 0);
+  background: -moz-linear-gradient(top, rgba(74, 134, 119, 0) 0%, rgba(74, 134, 119, 0.66) 35%, #4a8677 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(74, 134, 119, 0)), color-stop(35%, rgba(74, 134, 119, 0.66)), color-stop(100%, #4a8677));
+  background: -webkit-linear-gradient(top, rgba(74, 134, 119, 0) 0%, rgba(74, 134, 119, 0.66) 35%, #4a8677 100%);
+  background: -o-linear-gradient(top, rgba(74, 134, 119, 0) 0%, rgba(74, 134, 119, 0.66) 35%, #4a8677 100%);
+  background: -ms-linear-gradient(top, rgba(74, 134, 119, 0) 0%, rgba(74, 134, 119, 0.66) 35%, #4a8677 100%);
+  background: linear-gradient(to bottom, rgba(74, 134, 119, 0) 0%, rgba(74, 134, 119, 0.66) 35%, #4a8677 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a8677', endColorstr='#4a8677', GradientType=0 ); }
+  @media screen and (min-width: 768px) {
+    .carousel-caption {
+      padding-bottom: 72px; } }
+  .carousel-caption h3 {
+    font-weight: 800;
+    text-shadow: 2px 2px 0 #38655a; }
+  .carousel-caption p {
+    font-size: 1.2em;
+    margin: 0;
+    text-shadow: 1px 1px 1px #38655a; }
+    @media screen and (min-width: 768px) {
+      .carousel-caption p {
+        font-size: 1.8em; } }

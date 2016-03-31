@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   $('.input-group.date').datepicker({
+    daysOfWeekDisabled: "0,6",
     autoclose: true,
     todayHighlight: true
   });
